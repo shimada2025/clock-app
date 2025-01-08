@@ -5,8 +5,8 @@ from datetime import datetime
 from timezones import TIMEZONE_DICT
 
 # 定数
-BG_COLOR = "#FFA500"
-TEXT_COLOR = "#333333"
+BG_COLOR = "#FFFACD"
+TEXT_COLOR = "#BED887"
 NOTATION_12_HOUR = "12時制"
 NOTATION_24_HOUR = "24時制"
 
@@ -21,7 +21,7 @@ root.config(bg=BG_COLOR)
 root.resizable(width=False, height=False)
 
 # 現在時刻を表示するラベルの作成
-label_time = tk.Label(root, font=("Helvetica", 48), fg=TEXT_COLOR, bg=BG_COLOR)
+label_time = tk.Label(root, font=("MS Gothic Regular", 48), fg=TEXT_COLOR, bg=BG_COLOR)
 label_time.pack()
 
 # 現在の時刻表記を表示するラベル
